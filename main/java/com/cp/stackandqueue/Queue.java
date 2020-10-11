@@ -27,4 +27,8 @@ public class Queue<K> {
 		linkedList.print();
 	}
 	
+	public INode<K> deQueue(){
+		return linkedList.pop();
+	}
+	
 }
