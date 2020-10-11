@@ -38,7 +38,7 @@ public class LinkedList<K> {
 	public void print() {
 		INode<K> tmp = head ; 
 		while(tmp != null) {
-			System.out.print(tmp.getKey()+"->");
+			System.out.println(tmp.getKey());
 			tmp=tmp.getNext();
 		}
 		System.out.println();
