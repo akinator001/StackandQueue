@@ -22,4 +22,19 @@ public class Stack<K>{
     	return linkedList.head;
     }
     
+    public INode<K> pop(){
+    	return linkedList.pop();
+    }
+    
+    public boolean isEmpty() {
+    	if(linkedList.size() == 0)
+    		return true;
+    	else
+    		return false;
+    }
+    
+    public int size() {
+    	return linkedList.size();
+    }
+    
 }
